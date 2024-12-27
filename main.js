@@ -1,6 +1,11 @@
 function Main() {
     const formData = JSON.parse(localStorage.getItem('formData'));
     /* console.log("Retrieved form data:", formData); */
+    const user = JSON.parse(localStorage.getItem('user'))
+    const image = user.image
+    console.log(image);
+    console.log(localStorage.getItem('user'));
+    
     function printpage() {
 
         document.getElementById("print-btn").style.display = 'none';
@@ -65,7 +70,7 @@ function Main() {
                         <tr>
                             <th>Applicant Name</th>
                             <td>
-                                <img src="" alt="User" className="user-img" />
+                                <img src={image} alt="User" className="user-img" />
                                 {formData.ApplicantName}
                             </td>
                         </tr>

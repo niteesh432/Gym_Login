@@ -76,7 +76,6 @@ function Form() {
             </form >
             </div>
         </div>
-        
     )
 }
 const root = ReactDOM.createRoot(document.getElementById('root'));
