@@ -6,14 +6,6 @@ window.data = [
     },
     {
         userName : "agongadi@gitam.in",
-        password: "bu22csen0100426",
-        image : "/niteshfriend.JPG"
-
-    },
-    {
-        userName : "vsirivel@gitam.in",
-        password: "bu22csen0100600",
-        image : "/niteshfriend.JPG"
-
+        password: "bu22csen0100426"
     },
 ]

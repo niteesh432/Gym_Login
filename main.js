@@ -69,7 +69,11 @@ function Main() {
                         </tr>
                         <tr>
                             <th>Applicant Name</th>
+<<<<<<< HEAD
                             <td className="d-flex w-100 align-items-center gap-1">
+=======
+                            <td>
+>>>>>>> ad58c61bb2b1b0b2e5b4768ddfaf8e8e91bbe9fe
                                 <img src={image} alt="User" className="user-img" />
                                 {formData.ApplicantName}
                             </td>
